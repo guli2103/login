@@ -3,8 +3,8 @@ const forms = document.querySelector(".forms"),
       links = document.querySelector(".link");
 
 pwShowHide.forEach(eyeIcon => {
-    eyeIcon.addEventListener('click', () => {
-        let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll('.password');
+    eyeIcon.addEventListener("click", () => {
+        let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
         
         pwFields.forEach(password => {
             if(password.type === "password"){

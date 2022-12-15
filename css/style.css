@@ -123,7 +123,7 @@ form{
     text-decoration: none;
 }
 
-form a:hover{
+.form-content a:hover{
     text-decoration: underline;
 }
 
@@ -132,7 +132,7 @@ form a:hover{
     height: 1px;
     width: 100%;
     margin: 36px 0;
-    color: #d4d4d4;
+    background-color: #d4d4d4;
 }
 
 .line::before{
@@ -143,7 +143,7 @@ form a:hover{
     transform: translate(-50%, -50%);
     background-color: #fff;
     color: #8b8b8b;
-    padding: 0 ;
+    padding: 0 15px ;
 }
 
 .media-options a{
@@ -158,7 +158,7 @@ a.facebook{
 
 }
 
-.a.facebook facebook-icon{
+a.facebook .facebook-icon{
     height: 28px;
     width: 28px;
     color: #0171d3;
